@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+.box{
+    width:800px;
+    height:600px;
+    border-radius: 20%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top:30px;
+    left:550px;
+
+
+}
+html{
+    height: 100%;
+  }
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+body{
+    background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover {
+    background-color: #111;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  
+li {
+    float: right;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #140409;
+  }
+  footer{
+    position: fixed;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+  }
+  .foot>li{
+      position: relative;
+      right:860px;
+
+  }
+  .mytext{
+    padding: 20px 20px;
+    margin: 0;
+    position: absolute;
+    top:280px;
+    text-align: center;
+    opacity: 1;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+
+
+  }
+  .quote{
+   font: 0.8em sans-serif; 
+   position:absolute;
+   top:300px;
+   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   left:300px;
+  }
+  .head1{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .parent {
+    background-image: url('me.jpg');
+    width: 150px;
+    background-size: 100% 100%;
+    height: 150px;   
+    position: relative;
+    top: 60px;
+    left: 320px;
+    opacity: 1;
+    transform: rotate(-5deg);   
+
+}body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#img2{
+  position: absolute;
+  left:200px;
+  top:-410px;
+  transform: rotate(-20deg);   
+}
+
+#img3{
+  position: absolute;
+  top:170px;
+  opacity: 1;
+  left:383px;
+  transform: rotate(-270deg);
+}
+#onebutton{  background-color: rgb(106, 91, 148);
+  position:absolute;
+  top:690px;
+  color: white;
+  left: 908px;
+  border-radius: 30%;
+
+}
+
+.contact{
+  position: relative;
+  text-align: center;
+  font: 1em sans-serif;
+  font-weight: bolder;
+  top:330px;
+}
